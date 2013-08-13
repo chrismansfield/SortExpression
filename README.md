@@ -20,3 +20,14 @@ In its simplest form the sytax is as follows:
 db.MyTable.OrderBy("FirstName DESC");
 ```
 
+Miscelanious Functions
+====
+
+__String.Replace(string, string, StringComparison)__
+
+Overload for the String.Replace method accepting a StringComparison value.
+
+__String.Remove(String, [StringComparison])__
+__String.Remove([StringComparison], params String[])__
+
+Overload for String.Remove that removes the provided string(s) from the source string.
