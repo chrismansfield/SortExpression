@@ -3,7 +3,7 @@ SortExpression
 
 The sort expression utility extends the Linq OrderBy methods to accept a SQL-formatted string as an argument. This is useful when connecting certain ASP.NET controls to an underlying Linq-based data source like an Entity Framework model.
 
-In its simplest form the sytax is as follows:
+In its simplest form the syntax is as follows:
 
 ```
 db.MyTable.OrderBy("FirstName DESC");
